@@ -63,7 +63,7 @@ function agregar(nuevoCliente){
 
 function cerrarSesion(event){
     event.preventDefault();
-    nuevoCliente = [];   //A alumnos le asigno un array vació
-    localStorage.setItem('alumnos', JSON.stringify(nuevoCliente));   //Actualizo el localStorage
+    datosClientes = [];   //A alumnos le asigno un array vació
+    localStorage.setItem('clientes', JSON.stringify(datosClientes));   //Actualizo el localStorage
     actualizarVistaClientesRegistrados();
     }

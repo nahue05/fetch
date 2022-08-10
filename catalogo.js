@@ -1,5 +1,5 @@
 const lista = document.getElementById("lista");
-fetch("../catalogo.jsS")
+fetch("./catalogo.json")
 .then(resp => resp.json())
 .then(productos => {
     productos.forEach(producto => {
